@@ -11,12 +11,13 @@ export default {
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
+  "deploymentBranch": "pages",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "zh",
     "locales": [
-      "en"
+      "zh"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -26,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "E:\\work\\docusaurus\\markdoc\\sidebars.js",
+          "sidebarPath": "E:\\work\\docusaurus\\SRMESDoc\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "E:\\work\\docusaurus\\markdoc\\src\\css\\custom.css"
+          "customCss": "E:\\work\\docusaurus\\SRMESDoc\\src\\css\\custom.css"
         }
       }
     ]
